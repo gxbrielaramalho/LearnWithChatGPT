@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução ao Javascript</title>
+</head>
+
+<body>
+    <h1>O que é Javascript?</h1>
+    <p>JavaScript é uma linguagem de programação que permite adicionar interatividade e dinamismo às páginas web. Com
+        ele, você pode manipular o conteúdo exibido, responder a eventos como cliques de botão, validar formulários, e
+        muito mais.
+
+    <h2>Como Adicionar JavaScript a uma Página HTML</h2>
+    <p>
+        Há três maneiras principais de adicionar JavaScript a uma página HTML: <br><br>
+
+        <strong>JavaScript Inline:</strong>
+
+        Você pode adicionar JavaScript diretamente dentro de um atributo de um elemento HTML, como onclick ou
+        onmouseover. Isso não é muito recomendado para código complexo, mas funciona para pequenas interações.
+    </p>
+
+    <p>Você pode adicionar JavaScript diretamente dentro de um atributo de um elemento HTML, como <em>onclick </em>ou
+        <em>onmouseover</em>. Isso não é muito recomendado para código complexo, mas funciona para pequenas interações.
+    </p>
+
+    <pre><code>&lt;button onclick="alert('Olá, mundo!')"&gt;Clique aqui&lt;/button&gt;</code></pre>
+
+    <p>O resultado seria:</p>
+    <button onclick="alert('Olá, mundo!')">Clique aqui</button>
+
+    <hr>
+
+    <p>
+        <strong>JavaScript Interno:</strong>
+
+        Você pode incluir JavaScript dentro de uma tag &lt;script> no próprio documento HTML, geralmente dentro do
+        &lt;head> ou no final do &lt;body>.
+    </p>
+
+    <pre><code>&lt;html>
+ &lt;head>
+  &lt;script>
+    console.log('Olá, mundo!');
+  &lt;/script>
+ &lt;/head>
+  &lt;body>
+    &lt;p>Veja o console para a mensagem!&lt;/p>
+  &lt;/body>
+&lt;/html>
+    </code></pre>
+
+<p>O resultado seria:</p>
+    <pre>
+        <code>
+ &lt;script>
+  console.log('Olá, mundo!');
+ &lt;/script>
+        </code>
+    </pre>
+
+<hr>
+</body>
+
+</html>
